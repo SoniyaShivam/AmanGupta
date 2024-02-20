@@ -27,6 +27,7 @@ table{
     font-size:18px;
     font-size:0.9rem;
     font-family: "DM Sans", sans-serif;
+    border-collapse: collapse;
 }
 th, td {
     padding:5px 1px;
