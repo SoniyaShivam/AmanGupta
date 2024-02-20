@@ -1,0 +1,83 @@
+body {
+    height: 888px;
+    width: 713px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+
+}
+
+#page{
+    display: flex;
+    
+}
+
+.socialinsta {
+    border: 2px solid #FF939B;
+    background: linear-gradient(90deg, #fd747a 0%, #eb366c 100%);
+    box-sizing: border-box;
+    border-radius: 14px;
+    width: 171px;
+    height: 98px;
+    margin-right: 10px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 13px 6px 20px;
+}
+
+.socialMedia {
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 14px;
+    width: 171px;
+    height: 98px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 14px 6px 16px;
+}
+.socialMedia:last-child {
+    margin-right: 0px;
+}
+
+.iconinsta {
+    border: 3px solid #FF939B;
+    box-sizing: border-box;
+    border-radius: 3.75px;
+    height: 24px;
+    width: 24px;
+    margin: 0px 0px 0px 44px;
+}
+
+.iconimg {
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 3.75px;
+    height: 24px;
+    width: 24px;
+    margin: 0px 0px 0px 49px;
+}
+
+.count {
+    font-family: "DM Sans", sans-serif;
+    font-size: 34px;
+    margin: 6px 0px 0px 0px;
+    font-weight:medium;
+    display: flex;
+}
+
+.mediainsta {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    margin: 6px 0px 0px 0px;
+    color: white;
+}
+
+.medianame {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    margin: 6px 0px 0px 0px;
+    color: #6B7177;
+}
